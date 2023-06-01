@@ -1,0 +1,120 @@
+*{
+   padding:0 ;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Raleway', sans-serif;
+
+}
+body{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.section-1{
+   width: 80%;
+   border: 1px solid black;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   height: 100vh;
+   padding: 20px;
+}
+.primary_alert{
+   width: 98%;
+   height: 60px;
+   border: 1px solid #CADDF7;
+   padding-left: 20px;
+   line-height: 60px;
+   background-color: #CFE2FF;
+   color: #5774A5;
+   font-size: 15px;
+   font-weight: bold;
+   border-radius: 4px;
+   }
+.secondary_alert{
+   width: 98%;
+   height: 60px;
+   border: 1px solid #afc4e1;
+   padding-left: 20px;
+   line-height: 60px;
+   background-color: #E2E3E5;
+   color: #9EA1A8;
+   font-size: 15px;
+   font-weight: bold;
+   border-radius: 4px;
+}
+.success_alert{
+   width: 98%;
+   height: 60px;
+   border: 1px solid #bedfd1;
+   padding-left: 20px;
+   line-height: 60px;
+   background-color: #D1E6DD;
+   color: #A5AF93;
+   font-size: 15px;
+   font-weight: bold;
+   border-radius: 4px;
+}
+.danger_alert{
+   width: 98%;
+   height: 60px;
+   border: 1px solid #e6c2c5;
+   padding-left: 20px;
+   line-height: 60px;
+   background-color: #F8D7DA;
+   color: #B37F89;
+   font-size: 15px;
+   font-weight: bold;
+   border-radius: 4px;
+}
+.warning_alert{
+   width: 98%;
+   height: 60px;
+   border: 1px solid #c4bf9d;
+   padding-left: 20px;
+   line-height: 60px;
+   background-color: #FFF3CD;
+   color: #BFA584;
+   font-size: 15px;
+   font-weight: bold;
+   border-radius: 4px;
+}
+.info_alert{
+   width: 98%;
+   height: 60px;
+   border: 1px solid #86bec9;
+   padding-left: 20px;
+   line-height: 60px;
+   background-color: #CFF5FD;
+   color: #568490;
+   font-size: 15px;
+   font-weight: bold;
+   border-radius: 4px;
+}
+.light_alert{
+   width: 98%;
+   height: 60px;
+   border: 1px solid #efeaea;
+   padding-left: 20px;
+   line-height: 60px;
+   background-color: #FFFFFF;
+   color: #BEB29E;
+   font-size: 15px;
+   font-weight: bold;
+   border-radius: 4px;
+}
+.dark_alert{
+   width: 98%;
+   height: 60px;
+   border: 1px solid #F1F1F1;
+   padding-left: 20px;
+   line-height: 60px;
+   background-color: #D3D3D3;
+   color: #8C8792;
+   font-size: 15px;
+   font-weight: bold;
+   border-radius: 4px;
+}
